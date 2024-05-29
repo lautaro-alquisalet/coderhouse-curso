@@ -1,0 +1,32 @@
+/*layout*/
+@import "layout/header.scss";
+@import "layout/footer.scss";
+@import "layout/index.scss";
+@import "layout/servicios.scss";
+@import "layout/marcas.scss";
+@import "layout/sobre-nosotros.scss";
+@import "layout/galeria.scss";
+
+/*medias queries*/
+@import "media-queries/footer/media1180-footer";
+@import "media-queries/footer/media930-footer";
+@import "media-queries/footer/media812-footer";
+@import "media-queries/footer/media614-footer";
+@import "media-queries/footer/media484-footer";
+@import "media-queries/footer/media426-footer";
+@import "media-queries/footer/media396-footer";
+@import "media-queries/footer/media320-footer";
+
+@import "media-queries/index/index-997px";
+@import "media-queries/index/index_796px";
+@import "media-queries/index/index-692px";
+@import "media-queries/index/index-584px";
+@import "media-queries/index/index-515px";
+@import "media-queries/index/index-365px";
+
+@import "media-queries/servicios/servicios-765px";
+@import "media-queries/servicios/servicios-430px";
+
+@import "media-queries/nosotros/nosotros-769px";
+/*reset*/
+@import "base/reset.scss";

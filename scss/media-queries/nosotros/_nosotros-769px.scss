@@ -1,0 +1,22 @@
+@media screen and (max-width: 769px){
+    .main_sobre{
+        display: flex;
+        flex-direction: column;
+        .main_sobre-img1{
+            height: 300px;
+        }
+        .main_sobre-img2{
+            display: none;
+        }
+        .main_sobre-titulo{
+            text-align: center;
+        }
+        .main_sobre-parrafo{
+            margin-top: 0px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+    }
+}
