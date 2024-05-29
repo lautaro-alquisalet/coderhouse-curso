@@ -1,0 +1,29 @@
+@media screen and (max-width: 765px){
+    .main_servicios{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .main_servicios-titulo{
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 35px;
+        }
+        .main_servicios-imagen{
+            margin: auto;
+            border-radius: 20px;
+            margin-top: 40px;
+            width: 400px;
+        }
+        .main_servicios-subtitulo{
+            margin-left: 10px;
+            margin-right: 10px;
+            text-align: center;
+        }
+        .main_servicios-parrafo{
+            text-align: center;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: -20px;
+        }
+    }
+}

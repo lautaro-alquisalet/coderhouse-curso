@@ -1,0 +1,40 @@
+@import "../utilities/variables.scss";
+@import "../utilities/mixins";
+
+.main_galeria{
+    .main_galeria-titulo{
+        @include propiedades-titulo;
+    }
+    .main_galeria-lista{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: space-around;
+        gap: 20px;
+        row-gap: 40px;
+        margin-left: -30px;
+        .main_galeria-imagen{
+            width: 250px;
+            height: 250px;
+            .img-galeria{
+                width: 250px;
+                height: 250px;
+                border-radius: 10px;
+            }
+        }
+    }
+    .video-galeria{
+        width:65%;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    .main_galeria-h3{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+
+}

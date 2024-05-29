@@ -1,0 +1,31 @@
+@import "../utilities/variables.scss";
+.navegador{
+    background-color: black;
+    width: 100%; 
+    border-bottom: 2px solid rgb(177, 55, 55);
+    position: fixed ;
+    z-index: 1000;
+    div{
+        .navegador-logo{
+            height: 75px;
+            width: 100px;
+            display: inline;
+        }
+        .boton-nav{
+                        background-color:aliceblue !important;
+                    }
+        div{
+            div{
+                .nav-link{
+                    font-size: 20px !important;
+                    padding-left:  15px !important; 
+                    color: rgb(177, 55, 55) !important;
+                }
+                .nav-link:hover{
+                    color: rgb(255, 255, 255) !important;
+                    text-decoration: underline rgb(143, 134, 134) !important;
+                }
+            }
+        }
+    }
+}
