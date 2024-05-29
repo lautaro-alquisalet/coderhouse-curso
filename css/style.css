@@ -102,8 +102,8 @@
 }
 
 .main_index {
-  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../../imagenes/principal1.webp);
-  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imagenes/principal1.webp) !important;
+  background-repeat: no-repeat !important;
   background-size: 100% 100%;
 }
 .main_index .main_index-div {
