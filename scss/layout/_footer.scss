@@ -50,14 +50,15 @@
         position: absolute;
         margin-left: 230px;
         margin-top: -70px;
+        color: aliceblue !important;
         .footer-links-iconos{
             list-style-type: none;
             display: inline;
             padding: 45px;
             font-size: 40px;
-            color: aliceblue;
+            color: aliceblue !important;
             a:visited{
-                color: aliceblue;
+                color: aliceblue !important;
             }
         }
     }
